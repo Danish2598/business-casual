@@ -1,0 +1,24 @@
+.about-content span {
+    display: block;
+}
+.overlap {
+    position: relative;
+    margin-top: -100px;
+}
+.about img {
+    border-radius: 5px;
+}
+.about-content {
+    background-color: rgba(255, 255, 255, .85);
+    margin: auto 12em;
+    padding: 3em;
+    border-radius: 5px;
+}
+@media (max-width: 1025px) {
+    .about-content {
+        margin: auto;
+    }
+    .overlap {
+        margin-top: 20px;
+    }
+}
